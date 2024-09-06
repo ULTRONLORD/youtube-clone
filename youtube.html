@@ -2,8 +2,18 @@
 <html>
   <head> 
     <title>youTube.com Clone</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
     
     <style>
+
+      p {
+        font-family: Roboto, Arial;
+       
+      }
+      
       .thumbnail {
         width: 300px;
         display: block;
@@ -16,8 +26,7 @@
       }
 
       .video-title {
-        width: 300px;
-
+        margin-top: 0%;
       }
 
       .video-preview {
@@ -27,26 +36,45 @@
         margin-right: 10px;
       }
     
-    </style>
+      .channel-picture {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
 
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-picture {
+        width: 50px;
+        border-radius: 50px;
+        
+      }
+
+      .thumbnail-row {
+        margin-bottom: 10px;
+      } 
+      
+    </style>
   </head>
 
   <body>
     <input class="search-bar" type="text" placeholder="Search">
 
-
   <div class="video-preview">
-    <div> 
+    <div class="thumbnail-row"> 
       <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     </div>
 
     <div>
       <div class="channel-picture">
-        <img src="channel-pictures/channel-1.jpeg" style="width: 50px; border-radius: 50%;">
+        <img class="profile-picture" src="channel-pictures/channel-1.jpeg" style="width: 50px; border-radius: 50%;">
       </div>
 
       <div class="video-info">
-        <p class="video-title"></p>
+        <p class="video-title">
         Talking Tech and AI with Google CEO Sundar Pichai!
       </p>
     
