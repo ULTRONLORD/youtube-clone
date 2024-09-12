@@ -72,7 +72,8 @@
 
 .search-button,
 .voice-search-button,
-.upload-icon-container {
+.upload-icon-container,
+.youtube-apps-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +82,8 @@
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip {
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip {
   font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
@@ -101,7 +103,8 @@
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip {
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip {
   opacity: 1;
 }
 
